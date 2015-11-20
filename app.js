@@ -7,7 +7,7 @@
 
 angular.module('myApp', [
 'ngRoute', 'ngSanitize', 'ngTouch',		//additional angular modules
-'edenpessach.angular-errors-handler'
+'angular-errors-handler'
 ]).
 config(['$routeProvider', '$locationProvider', '$compileProvider', function($routeProvider, $locationProvider, $compileProvider) {
 	/**
